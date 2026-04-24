@@ -1,8 +1,8 @@
 # Bike_Sales_Analyst
-Analyzed customer data, built pivot tables and dashboards, and identified key factors influencing bike purchases (age, income, region).
 
-📘 Overview
-Bike Sales là một dự án phân tích dữ liệu được xây dựng bằng Microsoft Excel, nhằm khám phá hành vi mua xe đạp của khách hàng dựa trên các yếu tố nhân khẩu học và lối sống.
+📘 Tổng quan
+
+Bike Sales Analyst là một dự án phân tích dữ liệu được xây dựng bằng Microsoft Excel, nhằm khám phá hành vi mua xe đạp của khách hàng dựa trên các yếu tố nhân khẩu học và lối sống.
 Dự án tập trung vào việc làm sạch dữ liệu, phân tích bằng Pivot Table và xây dựng dashboard tương tác, từ đó rút ra các insight có giá trị giúp doanh nghiệp hiểu rõ khách hàng mục tiêu và tối ưu hóa chiến lược marketing.
 Qua dự án này, thể hiện khả năng:
 Xử lý và làm sạch dữ liệu
@@ -10,65 +10,84 @@ Phân tích dữ liệu thực tế
 Trực quan hóa và xây dựng dashboard
 Tư duy phân tích và storytelling dữ liệu
 
-🎯 Project Objectives
+🎯 Mục tiêu dự án
+
 Phân tích các yếu tố ảnh hưởng đến quyết định mua xe đạp
 Khám phá mối quan hệ giữa độ tuổi, thu nhập, khoảng cách di chuyển và hành vi mua
 Xây dựng dashboard trực quan, hỗ trợ ra quyết định nhanh chóng
 
-🧾 Dataset Summary
+🧾 Tóm tắt chung về bộ dữ liệu
+
+
 Bộ dữ liệu bao gồm thông tin khách hàng với các nhóm chính:
 Thông tin nhân khẩu học: Gender, Marital Status, Education, Region, Occupation
 Yếu tố kinh tế & hành vi: Income, Commute Distance, Cars
 Quyết định mua hàng: Purchased Bike (Yes/No)
 
-🧰 Tools & Skills Demonstrated
+🧰 Công cụ sử dụng
+ 
 🔹 Python (Data Preprocessing)
+
 Sử dụng Pandas để:
-Làm sạch dữ liệu (xử lý missing values, duplicate)
-Chuẩn hóa kiểu dữ liệu và định dạng (Income, Gender, Marital Status, …)
-Tiền xử lý dữ liệu trước khi đưa vào phân tích
+- Làm sạch dữ liệu (xử lý missing values, duplicate)
+- Chuẩn hóa kiểu dữ liệu và định dạng (Income, Gender, Marital Status, …)
+- Tiền xử lý dữ liệu trước khi đưa vào phân tích
+
 🔹 Microsoft Excel (Analysis & Dashboard)
+
 Data Cleaning:
-Kiểm tra và xử lý dữ liệu không nhất quán
-Chuẩn hóa các trường dữ liệu phục vụ phân tích
+- Kiểm tra và xử lý dữ liệu không nhất quán
+- Chuẩn hóa các trường dữ liệu phục vụ phân tích
+
 Data Analysis:
-Sử dụng Pivot Table để tổng hợp và phân tích dữ liệu
-Thực hiện các phép tính, so sánh giữa các nhóm khách hàng
+- Sử dụng Pivot Table để tổng hợp và phân tích dữ liệu
+- Thực hiện các phép tính, so sánh giữa các nhóm khách hàng
+
 Data Visualization:
-Pivot Charts (Column, Pie Chart)
-Conditional Formatting để làm nổi bật dữ liệu
+- Pivot Charts (Column, Pie Chart)
+- Conditional Formatting để làm nổi bật dữ liệu
+
 Dashboard Design:
-Sử dụng Slicer để tạo bộ lọc tương tác
-Thiết kế layout trực quan, dễ theo dõi
-Trình bày insight rõ ràng, hỗ trợ ra quyết định
+- Sử dụng Slicer để tạo bộ lọc tương tác
+- Thiết kế layout trực quan, dễ theo dõi
+- Trình bày insight rõ ràng, hỗ trợ ra quyết định
 
 
 📊 Dashboard Features
-Bộ lọc động (Slicer) theo:
-Gender, Region, Marital Status, Cars
+
+- Bộ lọc động (Slicer) theo: Gender, Region, Marital Status, Cars
+
 Các biểu đồ chính:
-Income vs. Bike Purchase
-Phân bố khoảng cách di chuyển
-Xu hướng mua theo nhóm tuổi
-Tỷ lệ mua theo khu vực (Region)
-Hành vi mua theo số lượng xe sở hữu
+- Thu nhập trung bình 
+- Phân bố khoảng cách di chuyển
+- Xu hướng mua theo nhóm tuổi
+- Tỷ lệ mua theo khu vực (Region)
+- Hành vi mua theo số lượng xe sở hữu
+
 Giao diện dashboard:
-Gọn gàng, trực quan
-Tối ưu cho báo cáo và thuyết trình
+- Gọn gàng, trực quan
+- Tối ưu cho báo cáo và thuyết trình
+
 🔍 Key Insights
+
 1. 🎯 Nhóm khách hàng trọng tâm
+
 Khách hàng trong độ tuổi 31–54 là nhóm có tỷ lệ mua cao nhất và đóng vai trò chính trong doanh số.
 
 2. 🚗 Số lượng xe ảnh hưởng mạnh đến hành vi mua
+
 Khách hàng sở hữu 0–1 xe có xu hướng mua xe đạp cao hơn đáng kể so với nhóm sở hữu nhiều xe.
 
 3. 🚶 Khoảng cách di chuyển là yếu tố quan trọng
+
 Những người có khoảng cách di chuyển ngắn có xu hướng mua xe đạp nhiều hơn, trong khi khoảng cách dài làm giảm nhu cầu.
 
 4. 📍 Thị trường trọng điểm
+
 North America là khu vực chiếm tỷ trọng khách hàng lớn nhất, đóng vai trò là thị trường chính.
 
 5. ⚖️ Thu nhập và giới tính không phải yếu tố quyết định
+
 Sự khác biệt về Income và Gender giữa nhóm mua và không mua là không đáng kể, cho thấy đây không phải là yếu tố phân biệt chính.
 
 🔍 Giải thích 
