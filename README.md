@@ -70,11 +70,16 @@ North America là khu vực chiếm tỷ trọng khách hàng lớn nhất, đó
 
 5. ⚖️ Thu nhập và giới tính không phải yếu tố quyết định
 Sự khác biệt về Income và Gender giữa nhóm mua và không mua là không đáng kể, cho thấy đây không phải là yếu tố phân biệt chính.
+
 🔍 Giải thích 
+
 Phân tích dữ liệu từ dashboard cho thấy nhóm khách hàng trong độ tuổi 31–54 đóng vai trò trung tâm trong hành vi mua xe đạp. Cụ thể, nhóm này ghi nhận 383 khách hàng mua so với 318 khách hàng không mua, chiếm tỷ trọng lớn nhất trong toàn bộ dataset. Trong khi đó, nhóm 0–30 tuổi chỉ có khoảng 39 khách hàng mua, thể hiện nhu cầu rất thấp, còn nhóm trên 54 tuổi có xu hướng ngược lại khi số lượng không mua (130) cao hơn đáng kể so với mua (59). Điều này cho thấy khách hàng trung niên vừa có nhu cầu thực tế vừa có khả năng chi trả, trở thành phân khúc đóng góp chính vào doanh số.
+
 Xét theo số lượng xe sở hữu, dữ liệu cho thấy một xu hướng giảm rõ rệt trong hành vi mua khi số lượng phương tiện tăng lên. Nhóm khách hàng không sở hữu xe (0 cars) có 151 người mua so với 96 người không mua, trong khi nhóm sở hữu 1 xe cũng ghi nhận tỷ lệ mua cao với 152 người mua và 115 người không mua. Tuy nhiên, từ 2 xe trở lên, xu hướng bắt đầu đảo chiều khi số lượng không mua tăng lên đáng kể, điển hình như nhóm 2 xe có 218 người không mua so với 124 người mua. Điều này phản ánh rằng xe đạp thường được xem là phương tiện thay thế hoặc bổ sung cho những người chưa có nhiều phương tiện di chuyển.
+
 Khoảng cách di chuyển hàng ngày cũng là một yếu tố có ảnh hưởng rõ rệt đến hành vi mua. Nhóm khách hàng có khoảng cách 0–1 miles ghi nhận mức mua cao nhất với 200 người, trong khi nhóm 5–10 miles có xu hướng mua nhiều hơn không mua (116 so với 76), tuy nhiên quy mô nhóm này khá nhỏ. Ngược lại, ở khoảng cách trên 10 miles, số lượng khách hàng không mua (78) cao hơn đáng kể so với số lượng mua (33) cho thấy khi khoảng cách di chuyển tăng, tính tiện dụng của xe đạp giảm và nhu cầu theo đó cũng giảm. Nhìn chung, xe đạp phù hợp nhất với các quãng đường ngắn và trung bình.
 Về phân bố theo khu vực, dữ liệu cho thấy North America chiếm ưu thế rõ rệt với 508 khách hàng, tương đương khoảng 50.8% tổng số, trong khi Europe có 300 khách hàng (30%) và Pacific chỉ có 192 khách hàng (19.2%). Điều này cho thấy phần lớn hành vi và xu hướng trong dataset chịu ảnh hưởng mạnh từ thị trường North America, đồng thời đây cũng là khu vực tiềm năng nhất để triển khai các chiến lược kinh doanh.
+
 Cuối cùng, xét về thu nhập và giới tính, dữ liệu không cho thấy sự khác biệt đáng kể giữa các nhóm mua và không mua. Thu nhập trung bình của nhóm mua chỉ nhỉnh hơn nhẹ so với nhóm không mua và có sự chồng lấn lớn giữa hai nhóm, trong khi tỷ lệ mua giữa nam và nữ tương đối cân bằng, không có sự lệch đáng kể. Điều này cho thấy Income và Gender không phải là yếu tố phân biệt chính, và hành vi mua xe đạp phụ thuộc nhiều hơn vào các yếu tố liên quan đến lối sống như độ tuổi, số lượng phương tiện và khoảng cách di chuyển.
 
 
