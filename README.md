@@ -1,6 +1,6 @@
 # Bike_Sales_Analyst
 
-📘 Tổng quan
+# 📘 Tổng quan
 
 Bike Sales Analyst là một dự án phân tích dữ liệu được xây dựng bằng Microsoft Excel, nhằm khám phá hành vi mua xe đạp của khách hàng dựa trên các yếu tố nhân khẩu học và lối sống.
 Dự án tập trung vào việc làm sạch dữ liệu, phân tích bằng Pivot Table và xây dựng dashboard tương tác, từ đó rút ra các insight có giá trị giúp doanh nghiệp hiểu rõ khách hàng mục tiêu và tối ưu hóa chiến lược marketing.
@@ -10,30 +10,29 @@ Phân tích dữ liệu thực tế
 Trực quan hóa và xây dựng dashboard
 Tư duy phân tích và storytelling dữ liệu
 
-🎯 Mục tiêu dự án
+# 🎯 Mục tiêu dự án
 
 Phân tích các yếu tố ảnh hưởng đến quyết định mua xe đạp
 Khám phá mối quan hệ giữa độ tuổi, thu nhập, khoảng cách di chuyển và hành vi mua
 Xây dựng dashboard trực quan, hỗ trợ ra quyết định nhanh chóng
 
-🧾 Tóm tắt chung về bộ dữ liệu
+# 🧾 Tóm tắt chung về bộ dữ liệu
 
+- Bộ dữ liệu bao gồm thông tin khách hàng với các nhóm chính:
+- Thông tin nhân khẩu học: Gender, Marital Status, Education, Region, Occupation
+- Yếu tố kinh tế & hành vi: Income, Commute Distance, Cars
+- Quyết định mua hàng: Purchased Bike (Yes/No)
 
-Bộ dữ liệu bao gồm thông tin khách hàng với các nhóm chính:
-Thông tin nhân khẩu học: Gender, Marital Status, Education, Region, Occupation
-Yếu tố kinh tế & hành vi: Income, Commute Distance, Cars
-Quyết định mua hàng: Purchased Bike (Yes/No)
-
-🧰 Công cụ sử dụng
+# 🧰 Công cụ sử dụng
  
-🔹 Python (Data Preprocessing)
+## 🔹 Python (Data Preprocessing)
 
 Sử dụng Pandas để:
 - Làm sạch dữ liệu (xử lý missing values, duplicate)
 - Chuẩn hóa kiểu dữ liệu và định dạng (Income, Gender, Marital Status, …)
 - Tiền xử lý dữ liệu trước khi đưa vào phân tích
 
-🔹 Microsoft Excel (Analysis & Dashboard)
+## 🔹 Microsoft Excel (Analysis & Dashboard)
 
 Data Cleaning:
 - Kiểm tra và xử lý dữ liệu không nhất quán
@@ -53,7 +52,7 @@ Dashboard Design:
 - Trình bày insight rõ ràng, hỗ trợ ra quyết định
 
 
-📊 Dashboard Features
+# 📊 Dashboard Features
 
 - Bộ lọc động (Slicer) theo: Gender, Region, Marital Status, Cars
 
@@ -68,7 +67,7 @@ Giao diện dashboard:
 - Gọn gàng, trực quan
 - Tối ưu cho báo cáo và thuyết trình
 
-🔍 Key Insights
+# 🔍 Key Insights
 
 1. 🎯 Nhóm khách hàng trọng tâm
 
@@ -90,7 +89,7 @@ North America là khu vực chiếm tỷ trọng khách hàng lớn nhất, đó
 
 Sự khác biệt về Income và Gender giữa nhóm mua và không mua là không đáng kể, cho thấy đây không phải là yếu tố phân biệt chính.
 
-🔍 Giải thích 
+# 🔍 Giải thích 
 
 Phân tích dữ liệu từ dashboard cho thấy nhóm khách hàng trong độ tuổi 31–54 đóng vai trò trung tâm trong hành vi mua xe đạp. Cụ thể, nhóm này ghi nhận 383 khách hàng mua so với 318 khách hàng không mua, chiếm tỷ trọng lớn nhất trong toàn bộ dataset. Trong khi đó, nhóm 0–30 tuổi chỉ có khoảng 39 khách hàng mua, thể hiện nhu cầu rất thấp, còn nhóm trên 54 tuổi có xu hướng ngược lại khi số lượng không mua (130) cao hơn đáng kể so với mua (59). Điều này cho thấy khách hàng trung niên vừa có nhu cầu thực tế vừa có khả năng chi trả, trở thành phân khúc đóng góp chính vào doanh số.
 
